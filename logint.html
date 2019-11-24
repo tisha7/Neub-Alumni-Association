@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login</title>
+    <link rel="icon" href="img/logof.png" type="image/png">
+    <link rel="stylesheet" href="logstyle.css" type="text/css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="all">
+        <div id="main">
+            <div class="wrapper fadeInDown">
+                <div id="formContent">
+                  <!-- Tabs Titles -->
+                  <h2 class="active"> <a href="logint.html">Sign In</a></h2>
+                  <h2 class="inactive underlineHover"><a href="registertis.php">Sign up</a> </h2>
+
+                  <!-- Icon -->
+                  <div class="fadeIn first">
+                    <h2> Enter username and password</h2>
+                  </div>
+
+                  <!-- Login Form -->
+                  <form>
+                    <input type="text" id="username" class="fadeIn second" name="login" placeholder="username">
+                    <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+                    <input type="submit" class="fadeIn fourth" value="Log In">
+                  </form>
+
+                  <!-- Remind Passowrd -->
+                  <div id="formFooter">
+                    <a class="underlineHover" href="#">Forgot Password?</a>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $('.menu').on('click', function () {
+            $('#nav ul').slideToggle(7);
+        });
+    </script>
+
+</body>
+
+</html>
