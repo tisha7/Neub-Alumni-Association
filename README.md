@@ -12,10 +12,10 @@ Alumni Association NEUB
 <ul> 
   
   <li> HTML </li>
-  <li> <strong> CSS Framework: </strong> W3-CSS </li> 
-  <li> <strong> PHP 5.6.3 </strong> </li>
+  <li> CSS </li> 
+  <li> PHP </li>
   <li> Javascript </li>
-  <li> Ajax </li>
+  <li> Bootstrap </li>
   
 </ul>
 
