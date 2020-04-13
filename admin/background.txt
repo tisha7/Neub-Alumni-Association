@@ -1,0 +1,2 @@
+Overview
+We have analyzed some of the websites for our background study such like various Alumni Association CSE, Alumni Association etc. to get idea for designing our interface, E-R diagram, database designing and user functionalities. 
